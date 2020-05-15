@@ -2,15 +2,17 @@ import { Config as Configuration } from 'bili';
 
 const configuration: Configuration = {
   banner: true,
-  input: 'src/index.ts',
+  input: 'src/request.ts',
   output: {
     format: [
       'es',
+      'es-min',
       'cjs',
+      'cjs-min',
       'umd',
       'umd-min'
     ],
-    moduleName: '{{LIB_NAME}}'
+    moduleName: 'Request'
   },
   plugins: {
     'typescript2': {

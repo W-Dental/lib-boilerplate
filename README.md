@@ -2,7 +2,7 @@
 Boilerplate for future libs
 
 ## Dependencies
-* node >= 12
+  * node >= 12
 
 ## Configuration
 1. Install packages using `npm i`

@@ -8,7 +8,6 @@
     "lib": [
       "ES5"
     ],
-    // Declaration configuration
     "declaration": true,
     "declarationDir": "types/"
   }
